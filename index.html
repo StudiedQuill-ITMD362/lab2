@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
   <title>Info Form</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <fieldset>
 	  <legend>Info</legend>
       <div><label>Email Address: <input type="email" id="email" name="email" placeholder="ex:email@gmail.com" required></label></div>
-      <div><label>Phone Number: <input id="entryinput" type="text" name="textentry" placeholder="***-***-****" required></label></div>
+      <div><label>Phone Number: <input id="phone" type="tel" name="phone" placeholder="***-***-****" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label></div> <!--from mdn web docs-->
       <div><label>Date of Birth: <input type="date" id="birthdate" name="birthdate" required></label></div>
     </fieldset>
     <input type="submit" value="Enter">
