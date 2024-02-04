@@ -2,18 +2,20 @@
 <html lang="en" class="nojs">
 <head>
   <meta charset="UTF-8">
-  link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
   <title>Info Form</title>
 </head>
 <body>
   <h1>Information Form</h1>
-  <p>Email Address:</p>
-  <input type="email" id="email" name="email" placeholder="ex:email@gmail.com">
-  <p>Phone Number</p>
-  <input id="entryinput" type="text" name="textentry" placeholder="***-***-****">
-  <p>Date of Birth</p>
-  <input type="date" id="birthdate" name="birthdate">
-  <p></p>
-  <input type="submit">
+  <form method="GET" autocomplete="on" action="#null">
+    <fieldset>
+	  <legend>Info</legend>
+      <div><label>Email Address: <input type="email" id="email" name="email" placeholder="ex:email@gmail.com"></label></div>
+      <div><label>Phone Number: <input id="entryinput" type="text" name="textentry" placeholder="***-***-****"></label></div>
+      <div><label>Date of Birth: <input type="date" id="birthdate" name="birthdate"></label></div>
+    </fieldset>
+    <input type="submit" value="Enter">
+  </form>  
 </body>
 </html>
