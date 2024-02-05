@@ -21,7 +21,7 @@ fieldset{
   height: 11em;
   background-color: #00dcff;
 }
-#infield{
+.infield{
   padding: 0.5em;
 }
 /*Credits to W3 Schools */
@@ -52,7 +52,7 @@ fieldset{
   legend{
 	  font-size: 1.7em;
   }
-  #infield{
+  .infield{
 	  padding: 1em;
   }
   label{
