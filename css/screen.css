@@ -45,3 +45,20 @@ fieldset{
 	  width: 11em
   }
 }
+@media screen and (min-width: 480px){
+  h1{
+	  font-size: 3em;
+  }
+  legend{
+	  font-size: 1.7em;
+  }
+  #infield{
+	  padding: 1em;
+  }
+  label{
+	  font-size: 1.1em;
+  }
+  .button{
+	  right: 40%;
+  }
+}
