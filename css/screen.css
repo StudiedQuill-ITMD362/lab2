@@ -62,3 +62,28 @@ fieldset{
 	  right: 40%;
   }
 }
+@media screen and (min-width: 992px){
+  h1{
+	  padding-left: 5.75em;
+  }
+  legend{
+	  font-size: 2.25em;
+	  position: relative;
+	  left: 5%;
+  }
+  label{
+	  font-size: 1.5em;
+  }
+  fieldset{
+	  height: 14em;
+  }
+  .button{
+	  right: 45%;
+  }
+  label{
+	  font-size: 1.75em;
+  }
+  .blue{
+	  padding: 1em 1.5em;
+  }
+}
